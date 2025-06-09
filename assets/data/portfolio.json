@@ -1,0 +1,65 @@
+[
+  {
+    "title": "FoodPanda Clone - Food Delivery Platform",
+    "projectDuration": "3 weeks",
+    "thumbnail": "./assets/images/portfolio1.png",
+    "cost": "$1,200",
+    "tags": ["React Native", "Firebase", "Redux", "Google Maps API", "UI/UX Design"],
+    "description": "Developed a full-featured food delivery mobile application inspired by FoodPanda, featuring real-time order tracking, restaurant listings, and secure payment processing. Implemented a responsive UI with smooth animations using React Native Reanimated. Integrated Firebase for user authentication and database management, and utilized the Google Maps API for location services and delivery tracking. The app includes features like favorite restaurants, order history, and promo code redemption.",
+    "category": "Mobile App Development"
+  },
+  {
+    "title": "Restaurant Discovery Web App",
+    "projectDuration": "2 weeks",
+    "thumbnail": "./assets/images/portfolio2.png",
+    "cost": "$950",
+    "tags": ["Next.js", "Tailwind CSS", "Node.js", "MongoDB", "Geolocation API"],
+    "description": "Built a comprehensive restaurant discovery platform that helps users find nearby dining options based on cuisine preferences and dietary restrictions. Developed with Next.js for server-side rendering and optimal SEO performance. Features include advanced search filters, user reviews and ratings, menu browsing, and online reservation system. Implemented a custom recommendation algorithm based on user behavior and preferences. The responsive design ensures seamless experience across all device sizes.",
+    "category": "Web Development"
+  },
+  {
+    "title": "Food Delivery Dashboard for Restaurants",
+    "projectDuration": "4 weeks",
+    "thumbnail": "./assets/images/portfolio3.png",
+    "cost": "$1,800",
+    "tags": ["React", "Material UI", "Express.js", "Socket.io", "Data Visualization"],
+    "description": "Created an admin dashboard for restaurant owners to manage their food delivery operations. The system includes order management, inventory tracking, sales analytics, and delivery personnel coordination. Implemented real-time updates using Socket.io for instant order notifications. Developed comprehensive data visualization charts using Chart.js to display sales trends and customer demographics. The dashboard supports multiple restaurant locations with role-based access control for staff members.",
+    "category": "Web Application"
+  },
+  {
+    "title": "Nutrition Tracking Mobile App",
+    "projectDuration": "5 weeks",
+    "thumbnail": "./assets/images/portfolio4.png",
+    "cost": "$2,500",
+    "tags": ["Flutter", "Dart", "Firebase", "Machine Learning", "Health API"],
+    "description": "Designed and developed a health-focused mobile application that tracks nutritional intake and suggests meal plans. Integrated with health APIs to sync with fitness trackers and wearables. Implemented a barcode scanner for quick food logging and developed a machine learning model to predict nutritional values from food images. The app includes personalized recommendations based on user goals (weight loss, muscle gain, etc.), water intake tracking, and progress analytics with weekly reports.",
+    "category": "Health Tech"
+  },
+  {
+    "title": "Zombie Survival FPS (Unity)",
+    "projectDuration": "3 months",
+    "thumbnail": "./assets/images/portfolio5.png",
+    "cost": "$3,500",
+    "tags": ["Unity", "C#", "3D Modeling", "AI Pathfinding"],
+    "description": "Developed a first-person zombie survival game with wave-based combat system. Implemented enemy AI with behavior trees, weapon recoil physics, and dynamic day-night cycle. Created custom shaders for blood effects and optimized performance for mobile devices. Features include upgradable weapons, destructible environments, and online leaderboards.",
+    "category": "Game Development"
+  },
+  {
+    "title": "Cyberpunk Racing (Unreal)",
+    "projectDuration": "4 months",
+    "thumbnail": "./assets/images/portfolio6.png",
+    "cost": "$5,200",
+    "tags": ["Unreal Engine", "Blueprints", "Vehicle Physics", "Nanite"],
+    "description": "Built a futuristic racing game with photorealistic graphics using Unreal Engine 5. Implemented advanced vehicle physics with drift mechanics and turbo boosting. Utilized Nanite for high-detail environments and Lumen for dynamic lighting. Created a track editor tool allowing players to design and share custom race courses.",
+    "category": "Game Development"
+  },
+  {
+    "title": "Pixel Platformer (Godot)",
+    "projectDuration": "6 weeks",
+    "thumbnail": "./assets/images/portfolio7.png",
+    "cost": "$1,800",
+    "tags": ["Godot", "GDScript", "Pixel Art", "Procedural Generation"],
+    "description": "Designed a retro-style 2D platformer with hand-drawn pixel art assets. Developed a custom physics system for precise character movement and wall-jumping mechanics. Implemented procedurally generated levels with increasing difficulty. Features include boss battles, power-up system, and original chiptune soundtrack.",
+    "category": "Game Development"
+  }
+]

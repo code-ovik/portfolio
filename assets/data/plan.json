@@ -1,0 +1,43 @@
+[
+  {
+    "type": "Basic",
+    "price": "$5",
+    "features": [
+      {"text": "1-2 Page Static Website", "included": true},
+      {"text": "Responsive Design", "included": true},
+      {"text": "Basic UI/UX", "included": true},
+      {"text": "Standard Contact Form", "included": true},
+      {"text": "Standard Speed Optimization", "included": true},
+      {"text": "Email Support", "included": true},
+      {"text": "1 Round of Revisions", "included": true}
+    ]
+  },
+  {
+    "type": "Pro",
+    "price": "$30",
+    "features": [
+      {"text": "Up to 5 Page Dynamic Website", "included": true},
+      {"text": "Custom UI/UX Design", "included": true},
+      {"text": "CMS Integration (e.g., WordPress)", "included": true},
+      {"text": "Basic SEO Optimization", "included": true},
+      {"text": "Advanced Performance Optimization", "included": true},
+      {"text": "Google Analytics Setup", "included": true},
+      {"text": "Basic Security Setup", "included": true},
+      {"text": "Email & Chat Support", "included": true},
+      {"text": "2-3 Rounds of Revisions", "included": true}
+    ]
+  },
+  {
+    "type": "Premium",
+    "price": "$50000",
+    "features": [
+      {"text": "Unlimited Pages & Custom Sections", "included": true},
+      {"text": "Full Custom UI/UX & User Testing", "included": true},
+      {"text": "Advanced CMS Integration", "included": true},
+      {"text": "Elite Performance & Security", "included": true},
+      {"text": "1-Hour Training Session", "included": true},
+      {"text": "Priority Support (24/7)", "included": true},
+      {"text": "Unlimited Revisions", "included": true}
+    ]
+  }
+]

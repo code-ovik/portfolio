@@ -1,0 +1,91 @@
+{
+  "name": "Ovik Biswas",
+  "title": "Web Developer from Bangladesh",
+  "image": "./assets/images/img2.png",
+  "personalInfo": [
+    {
+      "label": "Age",
+      "value": "15"
+    },
+    {
+      "label": "Location",
+      "value": "Bangladesh"
+    },
+    {
+      "label": "Experience",
+      "value": "2+ years"
+    },
+    {
+      "label": "Hobby",
+      "value": "Coding"
+    },
+    {
+      "label": "Language",
+      "value": "Bangla"
+    },
+    {
+      "label": "Education",
+      "value": "High School Student"
+    },
+    {
+      "label": "Skills",
+      "value": "HTML, CSS, JavaScript, React"
+    },
+    {
+      "label": "Interests",
+      "value": "Gaming, Reading, Photography"
+    },
+    {
+      "label": "Availability",
+      "value": "Part-time"
+    },
+    {
+      "label": "Nationality",
+      "value": "Bangladeshi"
+    },
+    {
+      "label": "Preferred IDE",
+      "value": "VS Code"
+    },
+    {
+      "label": "Favorite Editor",
+      "value": "VS Code"
+    },
+    {
+      "label": "Learning",
+      "value": "Node.js, Python"
+    },
+    {
+      "label": "Goals",
+      "value": "Full-stack developer"
+    },
+    {
+      "label": "Projects",
+      "value": "Portfolio website, E-commerce site"
+    },
+    {
+      "label": "Coding Style",
+      "value": "Clean, modular, and efficient"
+    },
+    {
+      "label": "Favorite Framework",
+      "value": "React.js"
+    },
+    {
+      "label": "Version Control",
+      "value": "Git"
+    },
+    {
+      "label": "Deployment Tools",
+      "value": "Netlify, Vercel"
+    },
+    {
+      "label": "Database Knowledge",
+      "value": "MongoDB (learning)"
+    },
+    {
+      "label": "Problem Solving",
+      "value": "Strong analytical skills"
+    }
+  ]
+}

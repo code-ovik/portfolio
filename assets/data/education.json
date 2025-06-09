@@ -1,0 +1,26 @@
+[
+  {
+    "degree": "Bachelor of Science in Computer Science",
+    "institution": "University of Dhaka",
+    "duration": "2015 - 2017",
+    "gpa": "4.8/5.0"
+  },
+  {
+    "degree": "Master of Science in Software Engineering",
+    "institution": "Stanford University, USA",
+    "duration": "2018 - 2019",
+    "gpa": "4.9/5.0"
+  },
+  {
+    "degree": "Advanced Computer Science & AI Research",
+    "institution": "Massachusetts Institute of Technology (MIT), USA",
+    "duration": "2019 - 2022",
+    "gpa": "3.8/5.0"
+  },
+  {
+    "degree": "Professional Certificate in Full-Stack Web Development",
+    "institution": "Harvard University (via edX)",
+    "duration": "2022 - 2025",
+    "gpa": "N/A"
+  }
+]

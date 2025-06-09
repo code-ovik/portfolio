@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is your development process like?",
+    "answer": "My process typically begins with a discovery phase to deeply understand your project goals and requirements. This leads to a detailed proposal and a clear project roadmap. I then move into design (UI/UX), development, rigorous testing, and finally, deployment. Throughout the process, I maintain open communication with regular updates and opportunities for your feedback to ensure we're always aligned."
+  },
+  {
+    "question": "What technologies do you specialize in?",
+    "answer": "While I'm always learning and adapting, my core expertise lies in [List 2-3 of your primary technologies, e.g., \"React.js, Node.js, and Python with Django\"]. I'm proficient in both frontend and backend development, and comfortable working with various databases like [e.g., \"MongoDB and PostgreSQL\"]. You can find a more comprehensive list of my skills on my [Skills/About] page."
+  },
+  {
+    "question": "How long does a typical project take?",
+    "answer": "The timeline for a project can vary significantly based on its complexity, scope, and specific features. A small website might take [e.g., \"2-4 weeks\"], while a more complex web application could take [e.g., \"3-6 months or more\"]. After our initial consultation, I can provide a more accurate time estimate tailored to your project."
+  },
+  {
+    "question": "Can you work with existing codebases or provide maintenance?",
+    "answer": "Yes, absolutely! I'm adept at understanding and working with existing codebases, whether it's for bug fixes, feature additions, or general refactoring. I also offer ongoing maintenance services to ensure your application remains updated, secure, and performs optimally post-launch. Please reach out to discuss your specific needs."
+  },
+  {
+    "question": "How much do your services cost?",
+    "answer": "My pricing is typically project-based, depending on the scope, complexity, and estimated time commitment. For custom solutions, I prefer to provide a detailed quote after a thorough discussion of your requirements. For smaller, more defined tasks, I may offer a fixed price. Please [Contact Me/Request a Quote] to discuss your project and get a personalized estimate."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "HTML",
+    "level": 100
+  },
+  {
+    "name": "CSS",
+    "level": 70
+  },
+  {
+    "name": "JavaScript",
+    "level": 77
+  },
+  {
+    "name": "React",
+    "level": 64
+  },
+  {
+    "name": "Tailwind CSS",
+    "level": 68
+  },
+  {
+    "name": "Python",
+    "level": 10
+  }
+]

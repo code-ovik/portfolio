@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Anta";
+  src: url("../fonts/my-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --myFont: "Anta", "Arial";
+  --primary: #ff6600;
+  --primary2: #ff009d;
+  --uiMatchColor: #fff;
+  --mybg: #151515;
+  --mytext: #f8f9fa;
+  --myElementColorInDark: rgb(40, 40, 40);
+  --myElementColorInLight: rgb(215, 215, 215);
+  --default-transition-duration: 0.3s;
+}

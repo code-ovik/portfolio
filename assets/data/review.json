@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "image": "./assets/images/client1.png",
+    "title": "Marketing Director, TechSolutions",
+    "rating": 5,
+    "review": "Absolutely love this product! It has transformed our workflow and increased productivity by 40%. The customer support team is incredibly responsive and helpful."
+  },
+  {
+    "name": "Michael Chen",
+    "image": "./assets/images/client2.png",
+    "title": "Founder, AppVenture",
+    "rating": 4,
+    "review": "Great value for the price. The interface is intuitive and my team adapted to it quickly. Would love to see more customization options in future updates."
+  },
+  {
+    "name": "David Kim",
+    "image": "./assets/images/client3.png",
+    "title": "CTO, NexGen Systems",
+    "rating": 3,
+    "review": "Decent product overall, but we've experienced some bugs with the mobile version. The desktop experience is solid though, and the features are comprehensive."
+  },
+  {
+    "name": "Emily Rodriguez",
+    "image": "./assets/images/client4.png",
+    "title": "Digital Manager, BrightMarketing",
+    "rating": 5,
+    "review": "Worth every penny! The analytics dashboard alone has given us insights we never had before. Implementation was smooth and the training resources were excellent."
+  },
+  {
+    "name": "James Wilson",
+    "image": "./assets/images/client5.png",
+    "title": "Operations Lead, RetailPlus",
+    "rating": 2,
+    "review": "Had high expectations but was disappointed with the performance issues. The concept is good but execution needs work. Hopefully future updates will address these problems."
+  },
+  {
+    "name": "Lisa Thompson",
+    "image": "./assets/images/client6.png",
+    "title": "Creative Director, DesignHub",
+    "rating": 4,
+    "review": "Beautiful design and very user-friendly. Our clients have noticed the upgrade immediately. Minor learning curve but well worth it for the professional results."
+  }
+]

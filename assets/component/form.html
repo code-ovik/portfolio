@@ -1,0 +1,40 @@
+<div class="lg:mx-40 mx-20 mb-40 flex flex-col lg:grid lg:grid-cols-[2fr_1fr] gap-30 form">
+  <form method="POST" class="form1 flex flex-col lg:gap-20 child">
+    <!-- email config -->
+    <input type="hidden" name="_autoresponse" value="Thanks for send message. We will reply soon.">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="_honey" style="display:none">
+    <input type="hidden" name="_template" value="table">
+
+
+    <div class="grid lg:grid-cols-2 gap-0 lg:gap-20">
+      <!-- name -->
+      <div class="">
+        <label class="font-bold text-xs lg:text-xl text-primary">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="Example: Ovik" required>
+      </div>
+      <!-- email -->
+      <div class="">
+        <label class="font-bold text-xs lg:text-xl text-primary">Your Email</label>
+        <input type="email" name="email" id="email" placeholder="Example: yourmail@email.com" required>
+      </div>
+    </div>
+    <!-- subject -->
+    <div class="">
+      <label class="font-bold text-xs lg:text-xl text-primary">Subject</label>
+      <input type="text" name="subject" id="subject" placeholder="Example: yourmail@email.com" required>
+    </div>
+    <!-- message -->
+    <div class="">
+      <label class="font-bold text-xs lg:text-xl text-primary">Your Message</label>
+      <textarea name="message" id="message" placeholder="Example: Hello!" rows="4" required></textarea>
+    </div>
+    <div class="flex justify-between">
+      <a class="btn form-button" id="saveDraft"><span class="">Save Draft<i class="fa-solid fa-arrow-right-long"></i></span></a>
+      <button class="btn form-button cursor-pointer"><span class="">Submit<i class="fa-solid fa-arrow-right-long"></i></span></button>
+    </div>
+  </form>
+  <div class="child">
+    <iframe class="w-full aspect-square lg:aspect-auto lg:h-full rounded-lg lg:rounded-2xl border-1 lg:border-4 border-mytext/10 googlemapembed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>

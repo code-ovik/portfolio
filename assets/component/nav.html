@@ -1,0 +1,29 @@
+<nav class="flex justify-between items-center h-70 lg:h-90 md:px-40 px-20 fixed top-0 z-99 w-full bg-secondary/70 backdrop-blur-xl">
+  <a href="./" class="cursor-pointer"><img src="./assets/images/logo.png" alt="logo" class="lg:h-50 h-30 cursor-pointer"></a>
+  <ul class="hidden text-mytext gap-15 text-xl lg:flex font-bold pcnav">
+    <li><a href="./index.html" class="magnet">Home</a></li>
+    <li><a href="./about.html" class="magnet">About</a></li>
+    <li><a href="./portfolio.html" class="magnet">Portfolio</a></li>
+    <li><a href="./contact.html" class="magnet">Contact</a></li>
+  </ul>
+
+    <div class="flex gap-10">
+      <div class="bg-primary rounded-full relative iconContainer h-40" id="darkBtn">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-regular fa-sun"></i>
+      </div>
+
+      <div class="bg-primary h-40 w-40 rounded-full relative lg:hidden" id="navBtn">
+        <span class=""></span>
+        <span class=""></span>
+        <span class=""></span>
+      </div>
+    </div>
+</nav>
+
+<div class="fixed z-99 h-full lg:hidden bg-secondary/90 backdrop-blur-3xl text-mytext flex flex-col items-center justify-center text-4xl top-full transition-all w-full font-myFont" id="mobileNavList">
+  <a href="./index.html" class="bg-mytext/10 font-bold w-3/4 py-5 text-center my-10 rounded-xl">Home</a>
+  <a href="./about.html" class="bg-mytext/10 font-bold w-3/4 py-5 text-center my-10 rounded-xl">About</a>
+  <a href="./portfolio.html" class="bg-mytext/10 font-bold w-3/4 py-5 text-center my-10 rounded-xl">Portfolio</a>
+  <a href="./contact.html" class="bg-mytext/10 font-bold w-3/4 py-5 text-center my-10 rounded-xl">Contact</a>
+</div>

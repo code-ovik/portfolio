@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Page title -->
+  <title>Home | Ovik</title>
+  <!-- Meta Description for SEO -->
+  <meta name="description" content="Personal developer portfolio template built with HTML, CSS, and JavaScript. Perfect for showcasing your work.">
+  <!-- Meta Keywords for SEO -->
+  <meta name="keywords" content="portfolio, developer, html, css, javascript, responsive, themeforest">
+  <!-- Author of the Website -->
+  <meta name="author" content="Ovik Biswas">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Custom CSS for brand colors and more -->
+  <link rel="stylesheet" href="./assets/css/custom.css">
+  <!-- Kursorjs style -->
+  <link rel="stylesheet" href="./assets/css/kursor.css">
+  <!-- Swiper js -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+</head>
+<body class="bg-mybg transition-all">
+  
+
+  <!-- navigation menu start -->
+  <div id="nav" class="">
+    <!-- Dynamic loaded by JavaScript -->
+  </div>
+  <!-- navigation menu end -->
+
+
+  <!-- hero section Start | It contains intro text, heading, image, and action buttons -->
+  <section class="heroSection w-full relative lg:h-850">
+    <div class="max-w-1300 gap-40 mx-20 lg:m-auto lg:grid flex flex-col grid-cols-2 h-full">
+      <div class="relative h-full flex items-end justify-center order-2 lg:order-1">
+        <div class="absolute bottom-0 left-0 w-full h-300 md:h-500 lg:h-500 rounded-t-full bg-primary z-[0] heroBg"></div>
+
+        <!-- main image -->
+        <img src="./assets/images/hero.png" alt="Hero section image" class="relative z-1 w-[85%]">
+      </div>
+      <div class="flex items-center order-1 lg:order-2 mt-150 lg:mt-0">
+        <div class="">
+          <p class="heroText text-mytext text-3xl animate-bounce" style="font-family: cursive;">Hey there,</p>
+
+          <!-- name -->
+          <h1 class="heroText text-4xl md:text-6xl lg:text-7xl font-bold text-mytext font-myFont">I'am <span class="bg-gradient-to-r from-primary to-primary2 from-0% bg-clip-text font-extrabold text-transparent">Ovik Biswas</span></h1>
+
+          <!-- skill typewriter effect dynamic load by javascript -->
+          <h1 class="heroText text-3xl md:text-5xl lg:text-6xl font-semibold my-10 text-mytext font-myFont">I'm a <span id="typeSkill" class="text-primary"></span> </h1>
+
+          <!-- short description -->
+          <p class="heroText text-sm md:text-xl text-mytext/80">Crafting modern, responsive websites with clean code and creative design. Passionate about turning ideas into interactive digital experiences. Let’s build something amazing together.</p>
+          <div class="heroText flex gap-10">
+
+            <!-- CV download button -->
+            <a href="./assets/files/cv.pdf" download class="btn"><span class="">Download CV<i class="fa-solid fa-arrow-right-long"></i></span></a>
+
+            <!-- Pop up video button -->
+            <button onclick="openPopup()" class="btn cursor-pointer"><span class="cursor-pointer">Watch Demo<i class="fa-solid fa-arrow-right-long"></i></span></button>
+          </div>
+          <!-- social media links -->
+          <div class="flex mt-20 gap-5 social-icon-hero-section heroText">
+            <!-- Dynamic loaded by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bg-linear-to-t from-white dark:from-mybg to-transparent w-full bottom-0 h-20 z-1"></div>
+  </section>
+  <!-- hero section End -->
+
+
+  <!-- Statistics section start -->
+  <div class="statistics mt-40 text-mytext lg:px-40 px-20 lg:gap-20 gap-10 grid md:grid-cols-3" id="counterSection">
+    <!-- Data injected by json file -->
+  </div>
+  <!-- Statistics section end -->
+
+
+  <!-- Skill section start -->
+  <div class="skills-section mx-20 lg:mx-40 mt-40">
+    <div class="title">
+      <span>My Skills</span>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-30 gap-10 text-mytext skill-container">
+      <!-- Data injected by json file -->
+    </div>
+  </div>
+  <!-- Skill section end -->
+  
+
+  <!-- education section start -->
+  <section class="education lg:mx-40 mx-20 mt-40 text-mytext">
+    <div class="title">
+      <span>Education</span>
+    </div>
+    <div class="relative"  id="education-container">
+      <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 bg-primary transform -translate-x-1/2 z-0"></div>
+        <!-- Data injected by json file -->
+      </div>
+    </div>
+  </section>
+  <!-- education section end -->
+
+
+  <!-- portfolio section start | It contains portfolio card and loaded all from .json file -->
+  <div class="title">
+    <span>Latest Portfolio</span>
+  </div>
+  <div class="lg:px-40 px-20 lg:gap-40 portfolio grid grid-cols-1 lg:grid-cols-2 home_portfolio">
+    <!-- Data injected by json file -->
+  </div>
+  <!-- portfolio section end -->
+
+
+  <!-- plan section start -->
+  <div class="lg:mx-40 mx-20">
+    <div class="title">
+      <span>Let's Work Together</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-40 gap-10 plan-container">
+      <!-- Data injected by json file -->
+    </div>
+  </div>
+  <!-- plan section end -->
+
+
+  <!-- faq start -->
+  <div class="title">
+    <span>Faq</span>
+  </div>
+  <section class="px-20 lg:px-40 faq">
+    <!-- Data injected by json file -->
+  </section>
+  <!-- faq end -->
+
+
+  <!-- slider start -->
+  <div class="title">
+    <span>Clients review</span>
+  </div>
+  <div class="mx-20 lg:mx-40">
+    <div class="swiper clientsSwiper">
+    <div class="swiper-wrapper">
+      <!-- Data injected by json file -->
+      <script>fetch('./assets/data/review.json').then(r=>r.json()).then(d=>{const s=document.querySelector(".swiper-wrapper");d.forEach(e=>{const c=document.createElement("div");c.className="swiper-slide";c.innerHTML=`<div><img loading="lazy" src="${e.image}" alt="Client ${e.name} image"><div><p>${e.name}</p><p>${e.title}</p><p class="rating">${e.rating}</p></div></div><span>${e.review}</span>`;s.appendChild(c)});const u=()=>{document.querySelectorAll('.rating').forEach(e=>{const t=parseInt(e.textContent.trim());let n='';for(let i=1;i<=5;i++)n+=i<=t?'<i class="fa-solid fa-star"></i>':'<i class="fa-regular fa-star"></i>';e.innerHTML=n})};u()});</script>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </div>
+  <!-- slider end -->
+
+
+  <!-- contact form start -->
+  <div class="title">
+    <span>Let's Contact</span>
+  </div>
+  <div id="form">
+    <!-- Dynamic loaded by JavaScript -->
+  </div>
+  <!-- contact form end -->
+
+
+  <!-- footer section start -->
+  <div id="footer">
+    <!-- Dynamic loaded by JavaScript -->
+  </div>
+  <!-- footer section end -->
+
+
+  <!-- go top button start -->
+  <div id="top"></div>
+  <a href="#top" id="goTop">
+    <i class="fa-solid fa-arrow-up"></i>
+    <svg>
+      <circle cx="30" cy="30" r="27" />
+    </svg>
+  </a>
+  <!-- go top button end -->
+
+
+  <!-- Youtube video pop up for hero section -->
+  <div class="overlay" id="videoOverlay">
+    <div class="popup">
+      <button class="close-btn" onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button>
+      <iframe 
+        id="youtubeFrame" 
+        src="https://www.youtube.com/embed/g4Ffdh41vRQ?enablejsapi=0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+  <!-- youtube poop up end -->
+
+  
+  <!-- Smooth scroll -->
+  <script defer src="./assets/js/lenis.min.js"></script>
+  <!-- Scroll reveal -->
+  <script defer src="./assets/js/scrollreveal.js"></script>
+  <!-- Korsor js -->
+  <script defer src="./assets/js/kursor.js"></script>
+  <!-- Typerighter effect -->
+  <script defer src="./assets/js/typed.js@2.0.12"></script>
+  <!-- Sweet alert 2 -->
+  <script src="./assets/js/sweetalert2@11.js"></script>
+  <!-- Swiper js -->
+  <script defer src="./assets/js/swiper-bundle.min.js"></script>
+  <!-- Main js -->
+  <script defer src="./assets/js/script.js"></script>
+
+
+</body>
+</html>
