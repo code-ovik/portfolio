@@ -138,7 +138,7 @@ fetch('./assets/component/form.html')
     scrollAnimation.reveal(".child", {
       interval: 300
     })
-    scrollAnimation.reveal("input, textarea, .form-button", {
+    scrollAnimation.reveal(".forminput, .form-button", {
       interval: 300
     })
   }
@@ -253,7 +253,7 @@ updateProgress();
 
 // smooth scroll by Lenis cdn
 const lenis = new Lenis({
-  duration: 0.5, // scroll speed
+  duration: 1.5, // scroll speed
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easing function
   smooth: true,
   direction: 'vertical', // optional
@@ -355,7 +355,7 @@ if(isHome) {
           
           <div class="mb-[16px]">
             <h3 class="lg:text-xl text-xl font-semibold mb-[8px] text-mytext">Description</h3>
-            <p id="modal-description" class="text-mytext text-xl"></p>
+            <p id="modal-description" class="text-mytext lg:text-xl text-sm"></p>
           </div>
           
           <div>
@@ -460,7 +460,7 @@ if(isHome) {
         tagsContainer.innerHTML = '';
         project.tags.forEach(tag => {
           const tagElement = document.createElement("span");
-          tagElement.className = "bg-gray-100 text-gray-800 text-xl px-[8px] py-[2px] rounded";
+          tagElement.className = "bg-gray-100 text-gray-800 md:text-xl text-sm px-[8px] py-[2px] rounded";
           tagElement.textContent = tag;
           tagsContainer.appendChild(tagElement);
         });
@@ -518,7 +518,7 @@ if(isPortfolioPage) {
           
           <div class="mb-[16px]">
             <h3 class="lg:text-xl text-xl font-semibold mb-[8px] text-mytext">Description</h3>
-            <p id="modal-description" class="text-mytext text-xl"></p>
+            <p id="modal-description" class="text-mytext lg:text-xl text-sm"></p>
           </div>
           
           <div>
@@ -623,7 +623,7 @@ if(isPortfolioPage) {
         tagsContainer.innerHTML = '';
         project.tags.forEach(tag => {
           const tagElement = document.createElement("span");
-          tagElement.className = "bg-gray-100 text-gray-800 text-xl px-[8px] py-[2px] rounded";
+          tagElement.className = "bg-gray-100 text-gray-800 md:text-xl text-sm px-[8px] py-[2px] rounded";
           tagElement.textContent = tag;
           tagsContainer.appendChild(tagElement);
         });
