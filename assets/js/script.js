@@ -253,7 +253,7 @@ updateProgress();
 
 // smooth scroll by Lenis cdn
 const lenis = new Lenis({
-  duration: 3, // scroll speed
+  duration: 0.5, // scroll speed
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easing function
   smooth: true,
   direction: 'vertical', // optional
