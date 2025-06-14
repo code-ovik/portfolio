@@ -9,25 +9,25 @@
 
     <div class="grid lg:grid-cols-2 gap-0 lg:gap-20">
       <!-- name -->
-      <div class="">
+      <div class="forminput">
         <label class="font-bold text-xs lg:text-xl text-primary">Your Name</label>
-        <input type="text" name="name" id="name" placeholder="Example: Ovik" required>
+        <input type="text" name="name" id="name" required>
       </div>
       <!-- email -->
-      <div class="">
+      <div class="forminput">
         <label class="font-bold text-xs lg:text-xl text-primary">Your Email</label>
-        <input type="email" name="email" id="email" placeholder="Example: yourmail@email.com" required>
+        <input type="email" name="email" id="email" required>
       </div>
     </div>
     <!-- subject -->
-    <div class="">
+    <div class="forminput">
       <label class="font-bold text-xs lg:text-xl text-primary">Subject</label>
-      <input type="text" name="subject" id="subject" placeholder="Example: yourmail@email.com" required>
+      <input type="text" name="subject" id="subject" required>
     </div>
     <!-- message -->
-    <div class="">
+    <div class="forminput">
       <label class="font-bold text-xs lg:text-xl text-primary">Your Message</label>
-      <textarea name="message" id="message" placeholder="Example: Hello!" rows="4" required></textarea>
+      <textarea name="message" id="message" rows="4" required></textarea>
     </div>
     <div class="flex justify-between">
       <a class="btn form-button" id="saveDraft"><span class="">Save Draft<i class="fa-solid fa-arrow-right-long"></i></span></a>
