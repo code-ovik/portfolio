@@ -258,7 +258,7 @@ const lenis = new Lenis({
   smooth: true,
   direction: 'vertical', // optional
   gestureDirection: 'vertical', // optional
-  smoothTouch: false, // mobile smooth scroll
+  smoothTouch: true, // mobile smooth scroll
   touchMultiplier: 1.5, // mobile scroll speed
 })
 function raf(time) {
